@@ -38,7 +38,7 @@
         // console.log(user);
         if (user.acc != '' && user.pw != '' && user.pw2 != '' && user.email != '') {
             if (user.pw == user.pw2) {
-
+                
             } else {
                 alert("密碼錯誤")
             }
