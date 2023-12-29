@@ -20,30 +20,10 @@
         </tr>
         <tr>
             <td>
-                <input type="button" value="註冊" onclick="reg()">
+                <input type="submit" value="註冊">
                 <input type="reset" value="清除">
             </td>
             <td></td>
         </tr>
     </table>
 </fieldset>
-<script>
-    function reg() {
-        let user = {
-            acc: $("#acc").val(),
-            pw: $("#pw").val(),
-            pw2: $("#pw2").val(),
-            email: $("#email").val(),
-        }
-        // console.log(user);
-        if (user.acc != '' && user.pw != '' && user.pw2 != '' && user.email != '') {
-            if (user.pw == user.pw2) {
-
-            } else {
-                alert("密碼錯誤")
-            }
-        } else {
-            alert("不可空白")
-        }
-    }
-</script>
