@@ -1,6 +1,6 @@
 <fieldset>
     <legend>帳號管理</legend>
-    <form action="./api/edit_user.php" method="post">
+    <form action="./edit_user.php" method="post">
     <table style="width:55%;margin:auto;text-align:center">
         <tr>
             <td class='clo'>帳號</td>
@@ -10,7 +10,6 @@
     <?php
     $rows=$User->all();
     foreach($rows as $row){
-        if($row['acc']!='admin'){
     ?>
         <tr>
             <td><?=$row['acc'];?></td>
@@ -20,7 +19,6 @@
             </td>
         </tr>
     <?php
-        }
     }
     ?>        
     </table>
