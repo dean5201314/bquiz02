@@ -6,7 +6,6 @@
         margin-left: -1px;
         border-radius: 5px 5px 0 0;
         text-align: center;
-        background-color: #ccc;
     }
     .tags{
         display: flex;
@@ -23,7 +22,6 @@
     }
     .active{
         border-bottom:1px solid white;
-        background-color: white;
     }
 </style>
 
