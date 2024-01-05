@@ -48,8 +48,11 @@
    $(".tag").on('click',function(){
         $(".tag").removeClass('active')
         $(this).addClass('active')
-        let id=$(this).attr('id').replace("sec",'section');
+        let id=$(this).attr('id');
+        console.log(id)
+        let newId=id.replace("sec",'section');
+        console.log(newId)
         $("section").hide();
-        $("#"+id).show();
+        $("#"+newId).show();
    })
 </script>
