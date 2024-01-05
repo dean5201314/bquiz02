@@ -38,7 +38,13 @@
         // console.log(user);
         if (user.acc != '' && user.pw != '' && user.pw2 != '' && user.email != '') {
             if (user.pw == user.pw2) {
-                
+                $.post("./api/chk_acc.php",{acc:user.acc},(res)=>{
+                    if(parseInt(res)==1){
+                        alert("帳號重複")
+                    }else{
+
+                    }
+                })
             } else {
                 alert("密碼錯誤")
             }
