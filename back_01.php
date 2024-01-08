@@ -24,7 +24,7 @@
 			<a href="index.php" style='float:right'>回首頁</a>
 		</div>
 		<div id="title2" title='健康促進網-回首頁'>
-			<a href='index.php'><img src="./icon/02B01.jpg" alt=""></a>
+			<img src="./icon/02B01.jpg" alt="">
 		</div>
 		<div id="mm">
 			<div class="hal" id="lef">
